@@ -1,0 +1,6 @@
+{
+  "name": "Gourmet - Преміальні Рецепти",
+  "description": "Преміальний кулінарний портал з вишуканими рецептами, інтерактивним каталогом та зручною панеллю керування (Admin Panel) для додавання та редагування рецептів.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
