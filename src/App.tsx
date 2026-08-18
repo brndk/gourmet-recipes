@@ -381,9 +381,8 @@ export default function App() {
           </div>
           
           <div className="flex flex-wrap justify-center gap-6 text-xs font-medium text-stone-500">
-            <a href="#" className="hover:text-gold-600 transition-colors">Кулінарний каталог</a>
-            <a href="#admin" className="hover:text-gold-600 transition-colors font-medium">Шеф-кабінет (Адміністрування)</a>
-            <span className="font-mono text-stone-400">Порт: 3000 (Локальний запуск)</span>
+            <a href="#/" className="hover:text-gold-600 transition-colors">Кулінарний каталог</a>
+            <a href="#/blog" className="hover:text-gold-600 transition-colors">Кулінарний блог</a>
           </div>
         </div>
       </footer>
