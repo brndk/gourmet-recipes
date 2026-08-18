@@ -82,18 +82,19 @@ export function RecipeCard({ recipe, onView, onEdit, onDelete, isAdmin = false }
           </p>
 
           {/* Teaser of key ingredients */}
-          <div className="border-t border-stone-100 pt-3 flex flex-wrap gap-1.5 h-12 overflow-hidden items-start">
-            {recipe.ingredients.slice(0, 3).map((item, idx) => (
+          <div className="border-t border-stone-100 pt-3 flex flex-wrap items-center gap-1.5 min-h-[32px]">
+            {recipe.ingredients.slice(0, 2).map((item, idx) => (
               <span
                 key={idx}
-                className="text-[11px] bg-luxury-clay px-2 py-0.5 text-stone-600 rounded border border-stone-200/50"
+                className="text-[11px] bg-luxury-clay px-2 py-0.5 text-stone-600 rounded border border-stone-200/50 max-w-[190px] truncate"
+                title={item.name}
               >
                 {item.name}
               </span>
             ))}
-            {recipe.ingredients.length > 3 && (
-              <span className="text-[10px] text-stone-400 font-bold self-center px-1">
-                +{recipe.ingredients.length - 3} інгр.
+            {recipe.ingredients.length > 2 && (
+              <span className="text-[10px] text-stone-400 font-bold px-1 whitespace-nowrap">
+                +{recipe.ingredients.length - 2} інгр.
               </span>
             )}
           </div>
