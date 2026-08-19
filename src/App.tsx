@@ -373,7 +373,7 @@ export default function App() {
           <div className="space-y-1">
             <h3 className="text-lg font-serif font-extrabold tracking-wider text-luxury-black flex items-center justify-center md:justify-start gap-1.5">
               <ChefHat className="w-5 h-5 text-gold-600" />
-              GOURMET STUDIO
+              MERRY STUDIO
             </h3>
             <p className="text-xs text-stone-500 font-sans">
               Платформа вишуканих рецептів від кращих кухарів світу © 2026.

@@ -20,7 +20,7 @@ export function Navbar({ activeTab, setActiveTab, isAdminUrlActive, isAuthorized
           </div>
           <div>
             <h1 className="text-2xl font-serif font-semibold tracking-wide text-luxury-black flex items-center gap-2">
-              GOURMET
+              MERRY
               <span className="text-xs font-sans tracking-widest font-bold uppercase text-gold-600 bg-gold-50 px-2 py-0.5 border border-gold-100 rounded">
                 Studio
               </span>
