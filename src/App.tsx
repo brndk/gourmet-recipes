@@ -15,7 +15,7 @@ export default function App() {
   const [selectedBlogPostId, setSelectedBlogPostId] = useState<string | null>(null);
 
   // Storage key
-  const LOCAL_STORAGE_KEY = 'gourmet_recipes_database_v1';
+  const LOCAL_STORAGE_KEY = 'merry_recipes_database_v2';
 
   // State with lazy initialization from localStorage
   const [recipes, setRecipes] = useState<Recipe[]>(() => {
